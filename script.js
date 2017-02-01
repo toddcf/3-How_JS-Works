@@ -12,7 +12,10 @@ var retirement =  function(year) {
 
 retirement(1990);
 
-
+// Variables
+console.log(age);
+var age = 23;
+console.log(age);
 
 
 
