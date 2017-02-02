@@ -39,7 +39,7 @@ console.log(age);
 
 // First scoping example
 
-
+/*
 var a = 'Hello!';
 first();
 
@@ -52,7 +52,7 @@ function first() {
         console.log(a + b + c);
     }
 }
-
+*/
 
 
 
@@ -83,11 +83,22 @@ function third() {
 ///////////////////////////////////////
 // Lecture: The this keyword
 
+// console.log(this);
+calculateAge(1985);
 
+function calculateAge(year) {
+    console.log(2017 - year);
+    console.log(this);
+}
 
+var john = {
+    name: "John",
+    yearOfBirth: 1990,
+    calculateAge: function() {
+        console.log(this);
+    }
+}
 
-
-
-
+john.calculateAge();
 
 
