@@ -1,5 +1,6 @@
 ///////////////////////////////////////
 // Lecture: Hoisting
+/*
 calculateAge(1965);
 
 function calculateAge(year) {
@@ -11,9 +12,10 @@ var retirement =  function(year) {
 }
 
 retirement(1990);
+*/
 
 // Variables
-
+/*
 console.log(age);
 var age = 23;
 
@@ -24,7 +26,7 @@ function foo() {
 
 foo();
 console.log(age);
-
+*/
 
 
 
@@ -37,7 +39,7 @@ console.log(age);
 
 // First scoping example
 
-/*
+
 var a = 'Hello!';
 first();
 
@@ -50,7 +52,7 @@ function first() {
         console.log(a + b + c);
     }
 }
-*/
+
 
 
 
